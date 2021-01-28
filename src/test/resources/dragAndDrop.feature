@@ -1,4 +1,4 @@
-@temp
+
 Feature: Drag and drop on heroku app
 
   Scenario: drag and drop exercise

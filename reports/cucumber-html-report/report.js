@@ -1,9 +1,9 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("dragAndDrop.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("toolTip.feature");
 formatter.feature({
   "line": 2,
-  "name": "Drag and drop on heroku app",
+  "name": "Tooltip",
   "description": "",
-  "id": "drag-and-drop-on-heroku-app",
+  "id": "tooltip",
   "keyword": "Feature",
   "tags": [
     {
@@ -14,46 +14,46 @@ formatter.feature({
 });
 formatter.scenario({
   "line": 4,
-  "name": "drag and drop exercise",
+  "name": "hovering over a microphone icon will give information",
   "description": "",
-  "id": "drag-and-drop-on-heroku-app;drag-and-drop-exercise",
+  "id": "tooltip;hovering-over-a-microphone-icon-will-give-information",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
   "line": 5,
-  "name": "browser is on the drag and drop page",
+  "name": "a webbrowser is on the google homepage",
   "keyword": "Given "
 });
 formatter.step({
   "line": 6,
-  "name": "user drags box A on top of box B",
+  "name": "user hover over the microphone icon",
   "keyword": "When "
 });
 formatter.step({
   "line": 7,
-  "name": "box A and box B will have switched spots",
+  "name": "tool tip will be shown",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dragAndDrop.browser_is_on_the_drag_and_drop_page()"
+  "location": "toolTip.a_webbrowser_is_on_the_google_homepage()"
 });
 formatter.result({
-  "duration": 6751676000,
+  "duration": 6997963300,
   "status": "passed"
 });
 formatter.match({
-  "location": "dragAndDrop.user_drags_box_a_on_top_of_box_b()"
+  "location": "toolTip.user_hover_over_the_microphone_icon()"
 });
 formatter.result({
-  "duration": 80578100,
+  "duration": 63967100,
   "status": "passed"
 });
 formatter.match({
-  "location": "dragAndDrop.box_a_and_box_b_will_have_switched_spots()"
+  "location": "toolTip.tool_tip_will_be_shown()"
 });
 formatter.result({
-  "duration": 13550328200,
+  "duration": 39110400,
   "status": "passed"
 });
 });
