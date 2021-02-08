@@ -1,11 +1,12 @@
 # SeleniumCucumberSetup
 
 0. pre-requirements:
-    - Intellij installed 
-    - Maven installed 
-    - git installed
+    - Install JDK and set Environment JAVA_HOME variable
+    - Install Intellij  
+    - Install Maven and add its bin folder to the windows PATH variable (C:\Program Files\Maven\apache-maven-3.6.3\bin)
+    - Install GIT
 
-1. Create a new maven project
+1. Open Intellij and create a new maven project
 
 2. Add the following dependencies to your pom file:
    (Found on: https://mvnrepository.com/ or right click in your pom.xml file and click generate):
