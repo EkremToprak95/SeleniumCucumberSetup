@@ -1,6 +1,6 @@
 # SeleniumCucumberSetup
 
-pre-requirement:
+0. pre-requirements:
     - Intellij installed 
     - Maven installed 
     - git installed
